@@ -1,0 +1,45 @@
+.row{
+    width: 100%;
+    background-color: #111;
+    padding: 2rem;
+}
+.category{
+    width: 100%;
+    display: flex;
+}
+.category h1{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.row .movie-slider{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.movie-slider::-webkit-scrollbar{
+    display: none;
+}
+.movie-slider .movie-card{
+    min-width: 20rem;
+    height: 12rem;
+}
+.movie-slider > * {
+    background-color: gray;
+    margin-right: 0.5rem;
+    border-radius: 0.125rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.movie-slider > * :hover {
+    border: 0.15rem solid #fff;
+}
+
+.movie-slider .small-movie-card{
+    min-width: 16rem;
+    height: 8rem;
+}

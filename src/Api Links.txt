@@ -1,0 +1,4 @@
+API_KEY=92136bc9af94219b6f09d818b2950df5
+Movie Images: https://image.tmdb.org/t/p/w500/{image-url}
+Movie Genres: https://api.themoviedb.org/3/genre/movie/list?api_key={}&language=en
+Movie Search: https://api.themoviedb.org/3/search/movie?query=Jack+Reacher&api_key=92136bc9af94219b6f09d818b2950df5'
