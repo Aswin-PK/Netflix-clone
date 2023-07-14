@@ -1,5 +1,4 @@
 .banner{
-    background-color: #d78c8c;
     background-size: cover;
     height: 35rem;
     width: 100%;
@@ -45,7 +44,7 @@
     font-weight: 600;
     margin-right: 0.8rem;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 0.2rem;
     cursor: pointer;
 }
 
@@ -61,8 +60,8 @@
 
 
 .content .banner-buttons .my-list{
-    background-color: #76767694;
-    color: #fff;
+    background-color: #747474a1;
+    color: #e6e6e6;
     transition: all 0.2s;
 }
 .content .banner-buttons .my-list:hover{

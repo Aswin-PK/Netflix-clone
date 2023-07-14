@@ -1,7 +1,6 @@
 .row{
     width: 100%;
-    background-color: #111;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 .category{
     width: 100%;
@@ -13,30 +12,37 @@
     margin-bottom: 1rem;
 }
 .row .movie-slider{
+    height: 13rem;
     display: flex;
+    align-items: center;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 .movie-slider::-webkit-scrollbar{
     display: none;
 }
-.movie-slider .movie-card{
-    min-width: 20rem;
-    height: 12rem;
-}
 .movie-slider > * {
-    background-color: gray;
     margin-right: 0.5rem;
-    border-radius: 0.125rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
 }
+
+.movie-slider > * :hover {
+    transform: scale(1.04);
+}
+
 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: inherit;
+    transition: all 0.4s;
 }
  
-.movie-slider > * :hover {
-    border: 0.15rem solid #fff;
+
+.movie-slider .movie-card{
+    min-width: 20rem;
+    height: 12rem;
 }
 
 .movie-slider .small-movie-card{

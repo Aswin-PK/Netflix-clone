@@ -25,6 +25,7 @@
 .navbar .left-container span{
     width: auto;
     height: 2rem;
+    cursor: pointer;
 }
 .navbar .left-container span .logo{
     width: 100%;
@@ -44,5 +45,19 @@
 li{
     margin: 0 0.8rem;
     color: #e2e2e2b9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.3s;
+    cursor: pointer;
+}
+li:hover{
+    color: #f0f0f0;
 }
 
+.navbar .right-container .rightside-lists li .account{
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+}
