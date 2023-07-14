@@ -20,8 +20,8 @@ function Banner() {
       <div className="content">
         <h1 className="title">{movie ? movie.title: ''}</h1>
         <div className="banner-buttons">
-          <button className="button play">Play</button>
-          <button className="button my-list">My List</button>
+          <button className="button play"><i class="fa-solid fa-play" style={{marginRight: '0.6rem', transform: 'scale(1.3)'}}></i>Play</button>
+          <button className="button my-list"><i class="fa-solid fa-add" style={{marginRight: '0.6rem', transform: 'scale(1.3)'}}></i>My List</button>
         </div>
         <p className="description">{movie ? movie.overview: ''}</p>
       </div>

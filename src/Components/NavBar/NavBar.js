@@ -20,13 +20,13 @@ function NavBar() {
           </div>
           <div className="right-container">
             <ul className='rightside-lists'>
-                <li><i className="bi bi-search"></i></li>
+                <li><i class="fa-solid fa-search" id='search' style={{transform: 'scale(1.3)'}}></i></li>
                 <li>KIDS</li>
                 <li>DVD</li>
-                <li><i className="bi bi-bell"></i></li>
+                <li><i class="fa-regular fa-bell" style={{transform: 'scale(1.3)'}}></i></li>
                 <li>
                   <div className="account">
-                    profile
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="" />
                   </div>
                 </li>
               </ul>
